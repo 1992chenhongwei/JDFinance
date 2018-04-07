@@ -2,12 +2,11 @@
     <div>
         <Heador/>
         <Slider/>
-        <Novice/>
-        <Borrow/>
+        <Ada/>
         <Money/>
-        <Product/>
-        <Life/>
-        <Help/>
+        <Adb/>
+        <Finance/>
+        <Adc/>
         <Footor/>
         <Navbar/>
     </div>
@@ -15,25 +14,23 @@
 
 <script>
 import Heador from '../public/header.vue'
-import Slider from './hslider.vue'
-import Novice from './novice.vue'
-import Borrow from './borrow.vue'
+import Slider from './mslider.vue'
+import Ada from './ada.vue'
 import Money from './money.vue'
-import Product from './product.vue'
-import Life from './life.vue'
-import Help from './help.vue'
+import Adb from './adb.vue'
+import Finance from './finance.vue'
+import Adc from './adc.vue'
 import Footor from '../public/footor.vue'
 import Navbar from '../public/navbar.vue'
 export default {
   components:{
     Heador,
     Slider,
-    Novice,
-    Borrow,
+    Ada,
     Money,
-    Product,
-    Life,
-    Help,
+    Adb,
+    Finance,
+    Adc,
     Footor,
     Navbar,
   }

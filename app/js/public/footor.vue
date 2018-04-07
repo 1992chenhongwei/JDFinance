@@ -2,9 +2,6 @@
     <Panel tittle="生活服务" :class="$style.panel">
         <ul :class="$style.content">
             <li :class="$style.item">
-                <img src="//img12.360buyimg.com/jrpmobile/jfs/t2842/350/3035567089/14791/5f6ff93d/577cf395N31e76288.png?width=1125&height=252" alt="">
-            </li>
-            <li :class="$style.item">
                 <div>
                     <img src="//img12.360buyimg.com/jrpmobile/jfs/t2971/333/1297567079/898/f2d2e00d/577dc28dNe5138337.png?width=108&height=108" alt="">
                     <p>客户端</p>
@@ -58,7 +55,7 @@ export default {
                 text-align: center;
                 font-size: 24px;
                 color: #999;
-               &:nth-child(2){
+               &:nth-child(1){
                    @include flex(row);
                    div{
                        padding-top: 20px;

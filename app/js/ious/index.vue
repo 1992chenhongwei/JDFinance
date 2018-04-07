@@ -1,12 +1,9 @@
 <template lang="html">
     <div>
         <Heador/>
-        <Slider/>
-        <Novice/>
-        <Borrow/>
-        <Money/>
-        <Product/>
-        <Life/>
+        <Islider/>
+        <Iousfree/>
+        <Moreservice/>
         <Help/>
         <Footor/>
         <Navbar/>
@@ -15,24 +12,18 @@
 
 <script>
 import Heador from '../public/header.vue'
-import Slider from './hslider.vue'
-import Novice from './novice.vue'
-import Borrow from './borrow.vue'
-import Money from './money.vue'
-import Product from './product.vue'
-import Life from './life.vue'
+import Islider from './islider.vue'
+import Iousfree from './iousfree.vue'
+import Moreservice from './moreservice.vue'
 import Help from './help.vue'
 import Footor from '../public/footor.vue'
 import Navbar from '../public/navbar.vue'
 export default {
   components:{
     Heador,
-    Slider,
-    Novice,
-    Borrow,
-    Money,
-    Product,
-    Life,
+    Islider,
+    Iousfree,
+    Moreservice,
     Help,
     Footor,
     Navbar,

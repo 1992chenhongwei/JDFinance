@@ -1,6 +1,7 @@
 
 @charset "UTF-8";
 @import "./layout.scss";
+@import "reset.scss";
 
 @mixin btn($size:14px,$color:#fff,$bgcolor:#f04752,$padding:5px,$radius:5px){
     padding: $padding;

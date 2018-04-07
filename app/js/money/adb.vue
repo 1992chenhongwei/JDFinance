@@ -1,8 +1,8 @@
 <template lang="html">
-    <Panel tittle="极速借贷" :class="$style.panel">
+    <Panel tittle="理财金" :class="$style.panel">
         <section :class="$style.content">
             <router-link :to="{name :'home'}">
-                <img src="//img12.360buyimg.com/jrpmobile/jfs/t12721/42/2497849749/26333/ec584be4/5a421756N2416c88f.png?width=750&height=280" alt="">
+                <img src="//img12.360buyimg.com/jrpmobile/jfs/t10876/23/2566835181/40527/d7d27c08/59f97d68Ne53fda5b.png?width=1080&height=240" alt="">
             </router-link>
         </section>
     </Panel>
@@ -22,7 +22,7 @@
     .panel{
         @include panel;
         >h4{
-            border-bottom: 1px solid #ddd;
+            display: none;
         }
         .content{
             img{
