@@ -1,7 +1,7 @@
 <template lang="html">
     <Panel tittle="帮助中心" :class="$style.panel">
         <section :class="$style.content">
-            <router-link to="{name :'home'}">
+            <router-link :to="{name :'home'}">
                 <img src="//img12.360buyimg.com/jrpmobile/jfs/t2842/350/3035567089/14791/5f6ff93d/577cf395N31e76288.png?width=1125&height=252" alt="">
             </router-link>
         </section>
